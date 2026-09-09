@@ -79,7 +79,7 @@ export default function MusicPlayer({ autoStartTrigger = false }) {
         ref={audioRef}
         src="/audio/our-song.mp3"
         loop
-        preload="auto"
+        preload="none"
         onError={() => {
           if (isPlaying && !usingSynth) {
             ambientSound.start();
