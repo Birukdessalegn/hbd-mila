@@ -1,0 +1,50 @@
+export const storyData = {
+  title: "A little story about us.",
+  subtitle: "Every love story is special, but ours is my absolute favorite.",
+  timeline: [
+    {
+      id: "beginning",
+      chapter: "Chapter 01",
+      title: "The Beginning",
+      tagline: "Where our story started.",
+      description: "Out of all the people, places, and paths in this world, ours crossed. I still remember the very first conversation, the subtle spark, and that unmistakable feeling that someone truly extraordinary had just walked into my life.",
+      image: "/images/memory-1.jpg",
+      date: "The First Chapter",
+      orientation: "portrait",
+      aspectRatio: "aspect-[9/16]",
+    },
+    {
+      id: "moment",
+      chapter: "Chapter 02",
+      title: "The Moment",
+      tagline: "One of those moments I'll never forget.",
+      description: "There was a quiet moment where time seemed to suspend itself. Looking across at you, listening to you laugh without a care, I knew right then and there: you weren't just passing through my world—you were reshaping it completely.",
+      image: "/images/memory-2.jpg",
+      date: "The Turning Point",
+      orientation: "landscape",
+      aspectRatio: "aspect-[4/3]",
+    },
+    {
+      id: "memories",
+      chapter: "Chapter 03",
+      title: "The Memories",
+      tagline: "All the little things that became my favorite memories.",
+      description: "Late night drives, spontaneous conversations about everything and nothing, quiet cups of coffee, and the inside jokes that only make sense to the two of us. It's the simple, unscripted everyday moments with you that mean the most.",
+      image: "/images/memory-3.jpg",
+      date: "Every Single Day",
+      orientation: "landscape",
+      aspectRatio: "aspect-[16/9]",
+    },
+    {
+      id: "the-us",
+      chapter: "Chapter 04",
+      title: "The Us",
+      tagline: "Somehow, along the way, you became one of the most important people in my life.",
+      description: "Growing with you, learning with you, and sharing life side by side. You make even the hardest days gentle and the good days unforgettable. You are my safe harbor, my favorite adventure, and my heart's easiest choice.",
+      image: "/images/memory-4.jpg",
+      date: "Today & Forever",
+      orientation: "portrait",
+      aspectRatio: "aspect-[9/16]",
+    }
+  ]
+};

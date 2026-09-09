@@ -1,0 +1,60 @@
+export const galleryData = {
+  title: "Captured Moments",
+  subtitle: "Snapshots of time, frozen with the person who holds my heart.",
+  photos: [
+    {
+      id: "p1",
+      src: "/images/photo-1.jpg",
+      title: "Special Moments",
+      caption: "This was one of my absolute favorite days with you. Nothing compares to the memories we make together.",
+      date: "Unforgettable Days",
+      orientation: "landscape",
+      aspectRatio: "aspect-[4/3]",
+    },
+    {
+      id: "p2",
+      src: "/images/photo-2.jpg",
+      title: "Quiet Coffee & Warmth",
+      caption: "Sitting with you, laughing about everything and nothing. Time always moves too fast when we're together.",
+      date: "Our Little Rituals",
+      orientation: "portrait",
+      aspectRatio: "aspect-[3/4]",
+    },
+    {
+      id: "p3",
+      src: "/images/photo-3.jpg",
+      title: "Under the Evening Sky",
+      caption: "That quiet evening when time stood still. Having your hand in mine was the best part of the day.",
+      date: "Golden Horizons",
+      orientation: "landscape",
+      aspectRatio: "aspect-[4/3]",
+    },
+    {
+      id: "p4",
+      src: "/images/photo-4.jpg",
+      title: "Unscripted Joy",
+      caption: "A candid moment of pure happiness. You bring effortless warmth and light into every room.",
+      date: "Spontaneous Memories",
+      orientation: "portrait",
+      aspectRatio: "aspect-[9/16]",
+    },
+    {
+      id: "p5",
+      src: "/images/photo-5.jpg",
+      title: "Adventure & Wanderlust",
+      caption: "Getting lost on purpose. Anywhere in the world is the right place as long as I get to walk beside you.",
+      date: "Adventures Together",
+      orientation: "landscape",
+      aspectRatio: "aspect-[4/3]",
+    },
+    {
+      id: "p6",
+      src: "/images/photo-6.jpg",
+      title: "Forever My Favorite View",
+      caption: "Looking back at all our adventures so far, and feeling profoundly grateful for every single second.",
+      date: "Cherished Forever",
+      orientation: "portrait",
+      aspectRatio: "aspect-[3/4]",
+    }
+  ]
+};
